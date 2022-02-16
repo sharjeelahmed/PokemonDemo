@@ -163,9 +163,7 @@
 			children = (
 				DF4B6E4427B4607200BA9C7F /* PokemonHomeViewController.swift */,
 				DF4B6E4627B4609200BA9C7F /* PokemonHomeViewModel.swift */,
-				DF4DBAAB27B5514F001832BC /* SelectedPokemonListViewController.swift */,
-				DF784E9427BAD0E000935711 /* SelectedPokemonListViewModel.swift */,
-				DF4DBAAF27B56943001832BC /* SelectedPokemonCollectionViewCell.swift */,
+				DF92D08127BCFC710073C9E5 /* SelectedPokemonList */,
 			);
 			path = PokemonHomeScreen;
 			sourceTree = "<group>";
@@ -227,6 +225,16 @@
 				DF92D07F27BC5B030073C9E5 /* Protocol.swift */,
 			);
 			path = PokemonDemoTests;
+			sourceTree = "<group>";
+		};
+		DF92D08127BCFC710073C9E5 /* SelectedPokemonList */ = {
+			isa = PBXGroup;
+			children = (
+				DF4DBAAB27B5514F001832BC /* SelectedPokemonListViewController.swift */,
+				DF784E9427BAD0E000935711 /* SelectedPokemonListViewModel.swift */,
+				DF4DBAAF27B56943001832BC /* SelectedPokemonCollectionViewCell.swift */,
+			);
+			path = SelectedPokemonList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

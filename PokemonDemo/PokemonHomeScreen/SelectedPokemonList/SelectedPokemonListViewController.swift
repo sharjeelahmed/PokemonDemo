@@ -92,10 +92,12 @@ class SelectedPokemonListViewController: UIViewController {
 		//self.reloadData()
 	}
 	
-	/*func setupLightBox(){
+	func setupLightBox(){
 		var ligthBoxImageArray:[LightboxImage] = [LightboxImage]()
-		let array =  isSearching == false ? self.selectedPokemons : self.searchedPokemon
-		for obj in array{
+		//let array =  isSearching == false ? self.selectedPokemons : self.searchedPokemon
+		let array = self.viewModel?.pokemons
+
+		for obj in array ?? []{
 			let random = Int.random(in: 0...9)
 			if let image = UIImage.init(named: "pokemon\(random)"){
 				let lightBox = LightboxImage.init(image: image, text: obj.name ?? "", videoURL: nil)
@@ -114,7 +116,7 @@ class SelectedPokemonListViewController: UIViewController {
 
 		// Present your controller.
 		present(controller, animated: true, completion: nil)
-	}*/
+	}
 	
 	
 
@@ -151,7 +153,7 @@ extension SelectedPokemonListViewController:UICollectionViewDataSource,UICollect
 	}
 	
 	func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-		//self.setupLightBox()
+		self.setupLightBox()
 	}
 	
 	func collectionView(_ collectionView: UICollectionView, willDisplay cell: UICollectionViewCell, forItemAt indexPath: IndexPath) {
