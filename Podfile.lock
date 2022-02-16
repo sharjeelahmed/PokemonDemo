@@ -1,0 +1,62 @@
+PODS:
+  - Alamofire (5.5.0)
+  - BEMCheckBox (1.4.1)
+  - Cache (6.0.0)
+  - FloatingPanel (2.5.1)
+  - Imaginary (5.0.0):
+    - Cache (~> 6.0.0)
+  - IQKeyboardManagerSwift (6.5.9)
+  - Lightbox (2.5.0):
+    - Imaginary (~> 5.0.0)
+  - Moya (15.0.0):
+    - Moya/Core (= 15.0.0)
+  - Moya/Core (15.0.0):
+    - Alamofire (~> 5.0)
+  - SkeletonView (1.26.0)
+  - SwiftyJSON (5.0.1)
+  - UIScrollView-InfiniteScroll (1.1.0)
+  - ViewAnimator (3.1.0)
+
+DEPENDENCIES:
+  - BEMCheckBox
+  - FloatingPanel
+  - IQKeyboardManagerSwift
+  - Lightbox
+  - Moya
+  - SkeletonView
+  - SwiftyJSON
+  - UIScrollView-InfiniteScroll (~> 1.1.0)
+  - ViewAnimator
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - BEMCheckBox
+    - Cache
+    - FloatingPanel
+    - Imaginary
+    - IQKeyboardManagerSwift
+    - Lightbox
+    - Moya
+    - SkeletonView
+    - SwiftyJSON
+    - UIScrollView-InfiniteScroll
+    - ViewAnimator
+
+SPEC CHECKSUMS:
+  Alamofire: 1c4fb5369c3fe93d2857c780d8bbe09f06f97e7c
+  BEMCheckBox: 5ba6e37ade3d3657b36caecc35c8b75c6c2b1a4e
+  Cache: 4ca7e00363fca5455f26534e5607634c820ffc2d
+  FloatingPanel: 523cb50f490f151fc03fabf24a8322e44d22f65f
+  Imaginary: cf5e3a7dd6ab1dcbd47ba8ce5edf2307c4e99eb3
+  IQKeyboardManagerSwift: 6e839c575c4aa1078d58a596e41244e77abe918f
+  Lightbox: cc3d5124f024fa8197fd23f913160db1c61a1852
+  Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
+  SkeletonView: 6b62a8ddbc64abb113ea3243e4a9979e5750f147
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
+  UIScrollView-InfiniteScroll: 3ef456bcbe759c19f510a383cff96e6647c98c98
+  ViewAnimator: a9ceed80266e00fd435ec4fb99b2df64d580d0e4
+
+PODFILE CHECKSUM: 7790e1465182166e39be2a3b5e19cd03f3f89d03
+
+COCOAPODS: 1.11.2
