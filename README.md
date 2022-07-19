@@ -1,2 +1,2 @@
 # PokemonDemo
-MVVM Pattern Implementation 
+Pokemon App by using MVVM Pattern 
